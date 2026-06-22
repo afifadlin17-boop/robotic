@@ -1,0 +1,29 @@
+{
+    "name": "robotic",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "microbit-robot": "github:microsoft/microbit-robot#v2.7.4",
+        "radio-broadcast": "*",
+        "Tinybit": "github:lzty634158/Tiny-bit#8f45bf6695194ebfdaccaa03e774d1bcf7dde979"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.22",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
